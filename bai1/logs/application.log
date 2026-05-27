@@ -1,0 +1,303 @@
+2026-05-25T15:44:50.973+07:00  INFO 16024 --- [bai1] [restartedMain] com.example.bai1.Bai1Application         : Starting Bai1Application using Java 17.0.18 with PID 16024 (D:\IT211_JAVAWEBSERVICE\SS10\bai1\build\classes\java\main started by Windows in D:\IT211_JAVAWEBSERVICE\SS10\bai1)
+2026-05-25T15:44:50.976+07:00  INFO 16024 --- [bai1] [restartedMain] com.example.bai1.Bai1Application         : No active profile set, falling back to 1 default profile: "default"
+2026-05-25T15:44:51.003+07:00  INFO 16024 --- [bai1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-25T15:44:51.003+07:00  INFO 16024 --- [bai1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-25T15:44:51.373+07:00  INFO 16024 --- [bai1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-25T15:44:51.409+07:00  INFO 16024 --- [bai1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+2026-05-25T15:44:51.685+07:00  INFO 16024 --- [bai1] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-25T15:44:51.693+07:00  INFO 16024 --- [bai1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-25T15:44:51.694+07:00  INFO 16024 --- [bai1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-25T15:44:51.719+07:00  INFO 16024 --- [bai1] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 715 ms
+2026-05-25T15:44:51.816+07:00  INFO 16024 --- [bai1] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-25T15:44:51.850+07:00  INFO 16024 --- [bai1] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-25T15:44:52.141+07:00  INFO 16024 --- [bai1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-25T15:44:52.162+07:00  INFO 16024 --- [bai1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-25T15:44:52.349+07:00  INFO 16024 --- [bai1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@215db2e2
+2026-05-25T15:44:52.349+07:00  INFO 16024 --- [bai1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-25T15:44:52.387+07:00  WARN 16024 --- [bai1] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-25T15:44:52.399+07:00  INFO 16024 --- [bai1] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bai1ss10?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: bai1ss10/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-25T15:44:52.950+07:00  INFO 16024 --- [bai1] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-25T15:44:52.985+07:00  INFO 16024 --- [bai1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25T15:44:53.031+07:00  INFO 16024 --- [bai1] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-25T15:44:53.136+07:00  WARN 16024 --- [bai1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-25T15:44:53.351+07:00  INFO 16024 --- [bai1] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-25T15:44:53.354+07:00  INFO 16024 --- [bai1] [restartedMain] com.example.bai1.Bai1Application         : Started Bai1Application in 2.652 seconds (process running for 3.24)
+2026-05-25T15:45:49.492+07:00  INFO 16024 --- [bai1] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-05-25T15:45:49.497+07:00  INFO 16024 --- [bai1] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-25T15:45:49.628+07:00  INFO 16024 --- [bai1] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-25T15:45:49.635+07:00  INFO 16024 --- [bai1] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25T15:45:49.635+07:00  INFO 16024 --- [bai1] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-25T15:45:49.649+07:00  INFO 16024 --- [bai1] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-25T15:45:49.724+07:00  INFO 16024 --- [bai1] [restartedMain] com.example.bai1.Bai1Application         : Starting Bai1Application using Java 17.0.18 with PID 16024 (D:\IT211_JAVAWEBSERVICE\SS10\bai1\build\classes\java\main started by Windows in D:\IT211_JAVAWEBSERVICE\SS10\bai1)
+2026-05-25T15:45:49.725+07:00  INFO 16024 --- [bai1] [restartedMain] com.example.bai1.Bai1Application         : No active profile set, falling back to 1 default profile: "default"
+2026-05-25T15:45:49.875+07:00  INFO 16024 --- [bai1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-25T15:45:49.888+07:00  INFO 16024 --- [bai1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interface.
+2026-05-25T15:45:49.978+07:00  INFO 16024 --- [bai1] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-25T15:45:49.978+07:00  INFO 16024 --- [bai1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-25T15:45:49.978+07:00  INFO 16024 --- [bai1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-25T15:45:49.988+07:00  INFO 16024 --- [bai1] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 260 ms
+2026-05-25T15:45:50.018+07:00  INFO 16024 --- [bai1] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-25T15:45:50.050+07:00  INFO 16024 --- [bai1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-25T15:45:50.052+07:00  INFO 16024 --- [bai1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-05-25T15:45:50.064+07:00  INFO 16024 --- [bai1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6857b588
+2026-05-25T15:45:50.065+07:00  INFO 16024 --- [bai1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-05-25T15:45:50.067+07:00  WARN 16024 --- [bai1] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-25T15:45:50.067+07:00  INFO 16024 --- [bai1] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bai1ss10?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: bai1ss10/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-25T15:45:50.126+07:00  INFO 16024 --- [bai1] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-25T15:45:50.133+07:00  INFO 16024 --- [bai1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25T15:45:50.185+07:00  WARN 16024 --- [bai1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-25T15:45:50.278+07:00  INFO 16024 --- [bai1] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-25T15:45:50.282+07:00  INFO 16024 --- [bai1] [restartedMain] com.example.bai1.Bai1Application         : Started Bai1Application in 0.585 seconds (process running for 60.168)
+2026-05-25T15:45:50.284+07:00  INFO 16024 --- [bai1] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-05-25T15:45:58.860+07:00  INFO 16024 --- [bai1] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-25T15:45:58.973+07:00  INFO 16024 --- [bai1] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-25T15:45:58.974+07:00  INFO 16024 --- [bai1] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25T15:45:58.974+07:00  INFO 16024 --- [bai1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-05-25T15:45:58.977+07:00  INFO 16024 --- [bai1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-05-25T15:46:00.583+07:00  INFO 22000 --- [bai1] [restartedMain] com.example.bai1.Bai1Application         : Starting Bai1Application using Java 17.0.18 with PID 22000 (D:\IT211_JAVAWEBSERVICE\SS10\bai1\build\classes\java\main started by Windows in D:\IT211_JAVAWEBSERVICE\SS10\bai1)
+2026-05-25T15:46:00.585+07:00  INFO 22000 --- [bai1] [restartedMain] com.example.bai1.Bai1Application         : No active profile set, falling back to 1 default profile: "default"
+2026-05-25T15:46:00.614+07:00  INFO 22000 --- [bai1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-25T15:46:00.615+07:00  INFO 22000 --- [bai1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-25T15:46:01.005+07:00  INFO 22000 --- [bai1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-25T15:46:01.041+07:00  INFO 22000 --- [bai1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interface.
+2026-05-25T15:46:01.322+07:00  INFO 22000 --- [bai1] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-25T15:46:01.330+07:00  INFO 22000 --- [bai1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-25T15:46:01.330+07:00  INFO 22000 --- [bai1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-25T15:46:01.359+07:00  INFO 22000 --- [bai1] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 744 ms
+2026-05-25T15:46:01.466+07:00  INFO 22000 --- [bai1] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-25T15:46:01.508+07:00  INFO 22000 --- [bai1] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-25T15:46:01.838+07:00  INFO 22000 --- [bai1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-25T15:46:01.862+07:00  INFO 22000 --- [bai1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-25T15:46:02.175+07:00  INFO 22000 --- [bai1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65a5c57f
+2026-05-25T15:46:02.177+07:00  INFO 22000 --- [bai1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-25T15:46:02.225+07:00  WARN 22000 --- [bai1] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-25T15:46:02.241+07:00  INFO 22000 --- [bai1] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bai1ss10?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: bai1ss10/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-25T15:46:02.927+07:00  INFO 22000 --- [bai1] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-25T15:46:02.970+07:00  INFO 22000 --- [bai1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25T15:46:03.028+07:00  INFO 22000 --- [bai1] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-25T15:46:03.178+07:00  WARN 22000 --- [bai1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-25T15:46:03.418+07:00  INFO 22000 --- [bai1] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-25T15:46:03.422+07:00  INFO 22000 --- [bai1] [restartedMain] com.example.bai1.Bai1Application         : Started Bai1Application in 3.153 seconds (process running for 3.579)
+2026-05-25T15:50:28.212+07:00  INFO 22000 --- [bai1] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-25T15:50:28.213+07:00  INFO 22000 --- [bai1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-25T15:50:28.214+07:00  INFO 22000 --- [bai1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-05-25T15:50:28.298+07:00  WARN 22000 --- [bai1] [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): expected a value]
+2026-05-25T15:51:08.280+07:00  WARN 22000 --- [bai1] [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.example.bai1.model.dto.response.ApiDataResponse<com.example.bai1.model.entity.CartItem>> com.example.bai1.controller.CartController.add(com.example.bai1.model.dto.request.CartItemDTO): [Field error in object 'cartItemDTO' on field 'quantity': rejected value [0]; codes [Min.cartItemDTO.quantity,Min.quantity,Min.java.lang.Integer,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [cartItemDTO.quantity,quantity]; arguments []; default message [quantity],1]; default message [Quantity phải lớn hơn 0]] ]
+2026-05-25T15:53:06.664+07:00  INFO 22000 --- [bai1] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-05-25T15:53:06.667+07:00  INFO 22000 --- [bai1] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-25T15:53:06.764+07:00  INFO 22000 --- [bai1] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-25T15:53:06.766+07:00  INFO 22000 --- [bai1] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25T15:53:06.768+07:00  INFO 22000 --- [bai1] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-25T15:53:06.773+07:00  INFO 22000 --- [bai1] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-25T15:53:06.822+07:00  INFO 22000 --- [bai1] [restartedMain] com.example.bai1.Bai1Application         : Starting Bai1Application using Java 17.0.18 with PID 22000 (D:\IT211_JAVAWEBSERVICE\SS10\bai1\build\classes\java\main started by Windows in D:\IT211_JAVAWEBSERVICE\SS10\bai1)
+2026-05-25T15:53:06.822+07:00  INFO 22000 --- [bai1] [restartedMain] com.example.bai1.Bai1Application         : No active profile set, falling back to 1 default profile: "default"
+2026-05-25T15:53:06.925+07:00  INFO 22000 --- [bai1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-25T15:53:06.935+07:00  INFO 22000 --- [bai1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+2026-05-25T15:53:06.999+07:00  INFO 22000 --- [bai1] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-25T15:53:07.000+07:00  INFO 22000 --- [bai1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-25T15:53:07.001+07:00  INFO 22000 --- [bai1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-25T15:53:07.012+07:00  INFO 22000 --- [bai1] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 186 ms
+2026-05-25T15:53:07.031+07:00  INFO 22000 --- [bai1] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-25T15:53:07.050+07:00  INFO 22000 --- [bai1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-25T15:53:07.052+07:00  INFO 22000 --- [bai1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-05-25T15:53:07.065+07:00  INFO 22000 --- [bai1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e84789c
+2026-05-25T15:53:07.065+07:00  INFO 22000 --- [bai1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-05-25T15:53:07.065+07:00  WARN 22000 --- [bai1] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-25T15:53:07.067+07:00  INFO 22000 --- [bai1] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bai1ss10?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: bai1ss10/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-25T15:53:07.093+07:00  INFO 22000 --- [bai1] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-25T15:53:07.102+07:00  INFO 22000 --- [bai1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25T15:53:07.143+07:00  WARN 22000 --- [bai1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-25T15:53:07.200+07:00  INFO 22000 --- [bai1] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-25T15:53:07.202+07:00  INFO 22000 --- [bai1] [restartedMain] com.example.bai1.Bai1Application         : Started Bai1Application in 0.397 seconds (process running for 427.36)
+2026-05-25T15:53:07.203+07:00  INFO 22000 --- [bai1] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-05-25T15:53:32.142+07:00  INFO 22000 --- [bai1] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-25T15:53:32.253+07:00  INFO 22000 --- [bai1] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-25T15:53:32.255+07:00  INFO 22000 --- [bai1] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25T15:53:32.255+07:00  INFO 22000 --- [bai1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-05-25T15:53:32.258+07:00  INFO 22000 --- [bai1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-05-25T15:53:35.841+07:00  INFO 12332 --- [bai1] [restartedMain] com.example.bai1.Bai1Application         : Starting Bai1Application using Java 17.0.18 with PID 12332 (D:\IT211_JAVAWEBSERVICE\SS10\bai1\build\classes\java\main started by Windows in D:\IT211_JAVAWEBSERVICE\SS10\bai1)
+2026-05-25T15:53:35.843+07:00  INFO 12332 --- [bai1] [restartedMain] com.example.bai1.Bai1Application         : No active profile set, falling back to 1 default profile: "default"
+2026-05-25T15:53:35.880+07:00  INFO 12332 --- [bai1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-25T15:53:35.880+07:00  INFO 12332 --- [bai1] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-25T15:53:36.362+07:00  INFO 12332 --- [bai1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-25T15:53:36.404+07:00  INFO 12332 --- [bai1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interface.
+2026-05-25T15:53:36.737+07:00  INFO 12332 --- [bai1] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-25T15:53:36.748+07:00  INFO 12332 --- [bai1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-25T15:53:36.749+07:00  INFO 12332 --- [bai1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-25T15:53:36.778+07:00  INFO 12332 --- [bai1] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 897 ms
+2026-05-25T15:53:36.891+07:00  INFO 12332 --- [bai1] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-25T15:53:36.927+07:00  INFO 12332 --- [bai1] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-25T15:53:37.297+07:00  INFO 12332 --- [bai1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-25T15:53:37.319+07:00  INFO 12332 --- [bai1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-25T15:53:37.516+07:00  INFO 12332 --- [bai1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1dad40f7
+2026-05-25T15:53:37.517+07:00  INFO 12332 --- [bai1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-25T15:53:37.556+07:00  WARN 12332 --- [bai1] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-25T15:53:37.568+07:00  INFO 12332 --- [bai1] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bai1ss10?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: bai1ss10/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-25T15:53:38.197+07:00  INFO 12332 --- [bai1] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-25T15:53:38.235+07:00  INFO 12332 --- [bai1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25T15:53:38.287+07:00  INFO 12332 --- [bai1] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-25T15:53:38.417+07:00  WARN 12332 --- [bai1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-25T15:53:38.641+07:00  INFO 12332 --- [bai1] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-25T15:53:38.645+07:00  INFO 12332 --- [bai1] [restartedMain] com.example.bai1.Bai1Application         : Started Bai1Application in 3.086 seconds (process running for 3.537)
+2026-05-25T15:53:50.114+07:00  INFO 12332 --- [bai1] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-25T15:53:50.114+07:00  INFO 12332 --- [bai1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-25T15:53:50.114+07:00  INFO 12332 --- [bai1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-05-25T15:53:50.209+07:00  WARN 12332 --- [bai1] [http-nio-8080-exec-1] c.e.b.exception.GlobalExceptionHandler   : Validation lỗi: {quantity=Quantity phải lớn hơn 0}
+2026-05-25T15:53:50.239+07:00  WARN 12332 --- [bai1] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.example.bai1.model.dto.response.ApiDataResponse<com.example.bai1.model.entity.CartItem>> com.example.bai1.controller.CartController.add(com.example.bai1.model.dto.request.CartItemDTO): [Field error in object 'cartItemDTO' on field 'quantity': rejected value [0]; codes [Min.cartItemDTO.quantity,Min.quantity,Min.java.lang.Integer,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [cartItemDTO.quantity,quantity]; arguments []; default message [quantity],1]; default message [Quantity phải lớn hơn 0]] ]
+2026-05-25T15:54:13.682+07:00  INFO 12332 --- [bai1] [http-nio-8080-exec-4] c.e.bai1.controller.CartController       : Thêm vào giỏ hàng userId=1, productId=1, quantity=2
+2026-05-25T15:54:13.682+07:00  INFO 12332 --- [bai1] [http-nio-8080-exec-4] c.example.bai1.service.CartServiceImpl   : Thêm vào giỏ hàng userId=1, productId=1, quantity=2
+2026-05-25T15:54:14.025+07:00  INFO 12332 --- [bai1] [http-nio-8080-exec-4] c.example.bai1.service.CartServiceImpl   : Tạo mới sản phẩm=1 cho user=1
+2026-05-25T15:54:14.070+07:00  INFO 12332 --- [bai1] [http-nio-8080-exec-4] c.example.bai1.service.CartServiceImpl   : Lưu giỏ hàng thành công id=1
+2026-05-25T15:54:33.368+07:00  INFO 12332 --- [bai1] [http-nio-8080-exec-5] c.e.bai1.controller.CartController       : Thêm vào giỏ hàng userId=1, productId=2, quantity=3
+2026-05-25T15:54:33.368+07:00  INFO 12332 --- [bai1] [http-nio-8080-exec-5] c.example.bai1.service.CartServiceImpl   : Thêm vào giỏ hàng userId=1, productId=2, quantity=3
+2026-05-25T15:54:33.370+07:00  INFO 12332 --- [bai1] [http-nio-8080-exec-5] c.example.bai1.service.CartServiceImpl   : Tạo mới sản phẩm=2 cho user=1
+2026-05-25T15:54:33.375+07:00  INFO 12332 --- [bai1] [http-nio-8080-exec-5] c.example.bai1.service.CartServiceImpl   : Lưu giỏ hàng thành công id=2
+2026-05-25T15:55:10.275+07:00  INFO 12332 --- [bai1] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-05-25T15:55:10.278+07:00  INFO 12332 --- [bai1] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-25T15:55:10.391+07:00  INFO 12332 --- [bai1] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-25T15:55:10.392+07:00  INFO 12332 --- [bai1] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25T15:55:10.395+07:00  INFO 12332 --- [bai1] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-25T15:55:10.399+07:00  INFO 12332 --- [bai1] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-05-25T15:55:10.452+07:00  INFO 12332 --- [bai1] [restartedMain] com.example.bai1.Bai1Application         : Starting Bai1Application using Java 17.0.18 with PID 12332 (D:\IT211_JAVAWEBSERVICE\SS10\bai1\build\classes\java\main started by Windows in D:\IT211_JAVAWEBSERVICE\SS10\bai1)
+2026-05-25T15:55:10.453+07:00  INFO 12332 --- [bai1] [restartedMain] com.example.bai1.Bai1Application         : No active profile set, falling back to 1 default profile: "default"
+2026-05-25T15:55:10.653+07:00  INFO 12332 --- [bai1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-25T15:55:10.671+07:00  INFO 12332 --- [bai1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interface.
+2026-05-25T15:55:10.789+07:00  INFO 12332 --- [bai1] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-25T15:55:10.790+07:00  INFO 12332 --- [bai1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-25T15:55:10.790+07:00  INFO 12332 --- [bai1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-25T15:55:10.811+07:00  INFO 12332 --- [bai1] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 355 ms
+2026-05-25T15:55:10.862+07:00  INFO 12332 --- [bai1] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-25T15:55:10.909+07:00  INFO 12332 --- [bai1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-25T15:55:10.910+07:00  INFO 12332 --- [bai1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-05-25T15:55:10.925+07:00  INFO 12332 --- [bai1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48213724
+2026-05-25T15:55:10.925+07:00  INFO 12332 --- [bai1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-05-25T15:55:10.925+07:00  WARN 12332 --- [bai1] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-25T15:55:10.927+07:00  INFO 12332 --- [bai1] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bai1ss10?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: bai1ss10/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-25T15:55:10.963+07:00  INFO 12332 --- [bai1] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-25T15:55:10.974+07:00  INFO 12332 --- [bai1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25T15:55:11.024+07:00  WARN 12332 --- [bai1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-25T15:55:11.085+07:00  INFO 12332 --- [bai1] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-25T15:55:11.090+07:00  INFO 12332 --- [bai1] [restartedMain] com.example.bai1.Bai1Application         : Started Bai1Application in 0.657 seconds (process running for 95.982)
+2026-05-25T15:55:11.094+07:00  INFO 12332 --- [bai1] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-05-25T15:55:12.481+07:00  INFO 12332 --- [bai1] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-05-25T15:55:12.483+07:00  INFO 12332 --- [bai1] [Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-25T15:55:12.566+07:00  INFO 12332 --- [bai1] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-25T15:55:12.568+07:00  INFO 12332 --- [bai1] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25T15:55:12.568+07:00  INFO 12332 --- [bai1] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-05-25T15:55:12.571+07:00  INFO 12332 --- [bai1] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-05-25T15:55:12.620+07:00  INFO 12332 --- [bai1] [restartedMain] com.example.bai1.Bai1Application         : Starting Bai1Application using Java 17.0.18 with PID 12332 (D:\IT211_JAVAWEBSERVICE\SS10\bai1\build\classes\java\main started by Windows in D:\IT211_JAVAWEBSERVICE\SS10\bai1)
+2026-05-25T15:55:12.620+07:00  INFO 12332 --- [bai1] [restartedMain] com.example.bai1.Bai1Application         : No active profile set, falling back to 1 default profile: "default"
+2026-05-25T15:55:12.688+07:00  INFO 12332 --- [bai1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-25T15:55:12.696+07:00  INFO 12332 --- [bai1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interface.
+2026-05-25T15:55:12.760+07:00  INFO 12332 --- [bai1] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-25T15:55:12.761+07:00  INFO 12332 --- [bai1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-25T15:55:12.761+07:00  INFO 12332 --- [bai1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-25T15:55:12.773+07:00  INFO 12332 --- [bai1] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 152 ms
+2026-05-25T15:55:12.792+07:00  INFO 12332 --- [bai1] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-25T15:55:12.807+07:00  INFO 12332 --- [bai1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-25T15:55:12.808+07:00  INFO 12332 --- [bai1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-05-25T15:55:12.816+07:00  INFO 12332 --- [bai1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7233ecde
+2026-05-25T15:55:12.816+07:00  INFO 12332 --- [bai1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-05-25T15:55:12.818+07:00  WARN 12332 --- [bai1] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-05-25T15:55:12.818+07:00  INFO 12332 --- [bai1] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/bai1ss10?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: bai1ss10/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-25T15:55:12.840+07:00  INFO 12332 --- [bai1] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-25T15:55:12.847+07:00  INFO 12332 --- [bai1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25T15:55:12.878+07:00  WARN 12332 --- [bai1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-25T15:55:12.944+07:00  INFO 12332 --- [bai1] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-25T15:55:12.947+07:00  INFO 12332 --- [bai1] [restartedMain] com.example.bai1.Bai1Application         : Started Bai1Application in 0.34 seconds (process running for 97.838)
+2026-05-25T15:55:12.948+07:00  INFO 12332 --- [bai1] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-05-25T15:55:14.745+07:00  INFO 12332 --- [bai1] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-25T15:55:14.745+07:00  INFO 12332 --- [bai1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-25T15:55:14.745+07:00  INFO 12332 --- [bai1] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-05-25T15:55:14.749+07:00  INFO 12332 --- [bai1] [http-nio-8080-exec-2] c.e.bai1.controller.CartController       : Lấy giỏ hàng user=1
+2026-05-25T15:55:14.749+07:00  INFO 12332 --- [bai1] [http-nio-8080-exec-2] c.example.bai1.service.CartServiceImpl   : Lấy danh sách giỏ hàng user=1
+2026-05-25T15:55:24.021+07:00  INFO 12332 --- [bai1] [http-nio-8080-exec-3] c.e.bai1.controller.CartController       : Thêm vào giỏ hàng userId=1, productId=1, quantity=1
+2026-05-25T15:55:24.021+07:00  INFO 12332 --- [bai1] [http-nio-8080-exec-3] c.example.bai1.service.CartServiceImpl   : Thêm vào giỏ hàng userId=1, productId=1, quantity=1
+2026-05-25T15:55:24.025+07:00  INFO 12332 --- [bai1] [http-nio-8080-exec-3] c.example.bai1.service.CartServiceImpl   : Cộng sản phẩm=1 số lượng=3
+2026-05-25T15:55:24.038+07:00  INFO 12332 --- [bai1] [http-nio-8080-exec-3] c.example.bai1.service.CartServiceImpl   : Lưu giỏ hàng thành công id=1
+2026-05-25T15:55:36.628+07:00  INFO 12332 --- [bai1] [http-nio-8080-exec-4] c.e.bai1.controller.CartController       : Lấy giỏ hàng user=1
+2026-05-25T15:55:36.628+07:00  INFO 12332 --- [bai1] [http-nio-8080-exec-4] c.example.bai1.service.CartServiceImpl   : Lấy danh sách giỏ hàng user=1
+2026-05-25T17:42:01.219+07:00  WARN 12332 --- [bai1] [HikariPool-3:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=1h19m17s905ms517µs700ns).
+2026-05-25T22:00:25.855+07:00  WARN 12332 --- [bai1] [HikariPool-3:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=4h18m31s498ms950µs100ns).
+2026-05-25T22:12:05.682+07:00  INFO 12332 --- [bai1] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-25T22:12:05.742+07:00  INFO 12332 --- [bai1] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-25T22:12:05.748+07:00  INFO 12332 --- [bai1] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-25T22:12:05.755+07:00  INFO 12332 --- [bai1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2026-05-25T22:12:05.757+07:00  INFO 12332 --- [bai1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
